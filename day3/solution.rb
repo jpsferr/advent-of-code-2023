@@ -128,7 +128,7 @@ def is_number(char)
 end
 
 # Files
-p1_example = File.readlines("day3/p1_example.txt")
+p1_example = File.readlines("day3/p1_example.txt").map(&:chomp)
 input = File.readlines("day3/input.txt").map(&:chomp)
 
 # Part 1

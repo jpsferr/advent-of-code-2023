@@ -66,8 +66,8 @@ def solve_part_two(games)
 end
 
 # Files
-p1_example = File.readlines("day4/p1_example.txt")
-p2_example = File.readlines("day4/p2_example.txt")
+p1_example = File.readlines("day4/p1_example.txt").map(&:chomp)
+p2_example = File.readlines("day4/p2_example.txt").map(&:chomp)
 input = File.readlines("day4/input.txt").map(&:chomp)
 
 # Part 1
