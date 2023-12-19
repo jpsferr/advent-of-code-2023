@@ -3,8 +3,6 @@ INSTRUCTION_TO_INDEX = {
     'R' => 1
 }
 
-ALL_SYNC = false
-
 def solve_part_one(map)
     map_hash = {}
     steps = 0
